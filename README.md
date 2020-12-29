@@ -5,4 +5,5 @@ Desafíos completados de Frontend Mentor
 #### Nivel Novato
 - [x] Profile card componente main
    - Ve mi resultado [aquí](https://profile-card-component-jraqh2qim.vercel.app/)
+#### Nivel Junior
 - [ ] Testimonial grid section main

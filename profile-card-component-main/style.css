@@ -7,9 +7,23 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    position: relative;
     background-color: #19a2ae;
     color: #2d3248;
     font-size: 18px;
+    overflow: hidden;
+}
+.top-wrapper img{
+    position: absolute;
+    top: -60%;
+    left: -13%;
+    width: 60%;
+}
+.bottom-wrapper img {
+    position: absolute;
+    bottom: -75%;
+    right: -12.5%;
+    width: 60%;
 }
 p {
     font-size: 9px;
@@ -99,6 +113,16 @@ span {
 @media (max-width: 600px) {
     .body-wrapper { 
         font-size: 19px;
+    }
+    .top-wrapper img{
+        top: -40%;
+        left: -74%;
+        width: 130%;
+    }
+    .bottom-wrapper img {
+        bottom: -44%;
+        right: -105%;
+        width: 160%;
     }
     p {
         font-size: 10px;
